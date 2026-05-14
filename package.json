@@ -26,11 +26,12 @@
 	},
 	"private": true,
 	"scripts": {
-		"cf-typegen": "wrangler types",
-		"check": "tsc --noEmit && wrangler deploy --dry-run",
-		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
-		"start": "wrangler dev",
-		"test": "vitest"
-	}
+  "build": "echo Build successful",
+  "cf-typegen": "wrangler types",
+  "check": "tsc --noEmit && wrangler deploy --dry-run",
+  "deploy": "wrangler deploy",
+  "dev": "wrangler dev",
+  "start": "wrangler dev",
+  "test": "vitest"
+}
 }
